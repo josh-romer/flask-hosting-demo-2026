@@ -1,5 +1,6 @@
 from flask import Flask, render_template, url_for, flash, redirect, request
 from forms import RegistrationForm
+import git
 # from flask_behind_proxy import FlaskBehindProxy
 
 app = Flask(__name__)
