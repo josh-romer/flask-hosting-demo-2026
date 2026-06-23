@@ -12,7 +12,7 @@ app.config["SECRET_KEY"] = "c29bcfa698752666def85f68880d22d8"
 @app.route("/home")
 def home():
     return render_template(
-        "home.html", subtitle="Home Page", text="This is the updated home page"
+        "home.html", subtitle="Home Page", text="This is the new home page"
     )
 
 
